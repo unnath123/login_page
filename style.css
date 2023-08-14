@@ -1,0 +1,76 @@
+*{
+    padding:0;
+    margin:0;
+
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+    background-image: url(./mick-haupt-F8XlEmrP2gI-unsplash.jpg);
+    background-size: cover;
+}
+.wrapper{
+    width:420px;
+    border-radius: 10px;
+    padding:20px;
+    border:2px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(10px);
+}
+.wrapper h1{
+     text-align: center;
+     font-family: sans-serif;
+}
+.wrapper .input-box{
+    width:100%;
+    height:50px;
+    border:2px solid rgba(255,255,255,0.5);
+    margin:20px 0px;
+    border-radius: 30px;
+}
+.input-box input{
+    height:100%;
+    width:85%;
+    margin-right:0px;
+    padding:0px 10px;
+    
+    border:none;
+    outline: none;
+    background:transparent;
+}
+.input-box i{
+    font-size:20px;
+    padding-left:15px;
+}
+.input-box input::placeholder{
+    color:#ffff;
+}
+.rem-forgot{
+    display: flex;
+    height:25px;
+    font-size:1.1rem;
+    justify-content: space-between;
+    margin:15px 0px;
+    color:white;
+}
+.rem-forgot p a{
+    text-decoration: none;
+    color:rgb(232, 232, 23);
+    font-weight: bold;
+}
+.footer p a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn button{
+    width:100%;
+    border-radius: 30px;
+    border:none;
+    height:50px;
+    margin-bottom: 15px;
+}
+.footer{
+    text-align: center;
+    margin-bottom: 30px;
+}
